@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Individual Registration </title>
+    <style>
+        html
+        {
+            background-color: rgb(169,243,243);
+        }
+        .h1
+        {
+            background: linear-gradient(rgb(138, 206, 226),rgb(147, 182, 214),rgb(92, 106, 153));
+            color: red;
+            text-align: center;
+        }
+        .h4
+        {
+            color: red;
+        }
+        .star
+        {
+            color: red;
+        }
+        .submit
+        {
+            background-color: rgb(27, 27, 197);
+            color: white;
+            border: none;
+            border-radius: 2px;
+            text-align: center;
+            padding: 5px;
+            margin-left: 600px;
+        }
+        .reset
+        {
+            background-color: rgb(27, 27, 197);
+            color: white;
+            border: none;
+            border-radius: 2px;
+            text-align: center;
+            padding: 5px;   
+        }
+
+        .div1
+        {
+            margin-left: 500px;
+            margin-bottom: 5px;
+        }
+        .div2
+        {
+            margin-left: 498px;
+            margin-bottom: 5px;
+        }
+        .div3
+        {
+            margin-left: 439px;
+            margin-bottom: 5px;
+        }
+        .div4
+        {
+            margin-left: 300px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .div5
+        {
+            margin-left: 300px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .div6
+        {
+            margin-left: 280px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .div7
+        {
+            margin-left: 230px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .div8
+        {
+            margin-left: 270px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .div9
+        {
+            margin-left: 313px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .div10
+        {
+            margin-left: 307px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .div11
+        {
+            margin-left: 196px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .div12
+        {
+            margin-left: 230px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .div13
+        {
+            margin-left: 228px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .div14
+        {
+            margin-left: 278px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+    <body>
+        <form>
+            <h1 class="h1"> Individual Registration </h1>
+
+            <h4 class="h4"> User Particulars </h4>
+            <div class="div1"><label for="loginid"> <span class="star">*</span>Login ID</label>
+            <input type="text" required></div>
+
+            <div class="div2"><label for="password"> <span class="star">*</span>Password</label>
+            <input type="password" required></div>
+
+            <div class="div3"><label for="confirmpassword"><span class="star">*</span>Confirm Password</label>
+            <input type="password" required></div>
+            <br><br>
+
+
+            <h4 class="h4"> personal Particulars </h4>
+            <div class="div4"><label for="salutation"><span class="star">*</span> Salutation</label>
+                <select name="salutation" id="salutation">
+                    <option value="select">--Select--</option>
+                    <option value="best regards">Best Regards</option>
+                    <option value="respectfully">Respectfully</option>
+                    <option value="bestwishes">Best Wishes</option>
+                </select></div>
+
+            <div class="div5"><label for="fname"> <span class="star">*</span>First Name</label>
+                    <input type="text" required></div>
+
+            <div class="div6"><label for="mname"><span class="star">*</span>Middle Name</label>
+            <input type="text"></div>
+
+            <div class="div7"><label for="lname"><span class="star">*</span>Last Name</label>
+            <input type="text" required></div>
+
+            <div class="div8"><label for="status"><span class="star">*</span>Resident Status</label>
+                <select name="Resident Status" id="Resident Status" required>
+                <option value="select">--Select--</option>
+                <option value="resident">Resident</option>
+                <option value="non-resident">Non-Resident</option></select></div>
+
+            <div class="div9"><label for="country"><span class="star">*</span> Country</label>
+                <select name="country" id="country" required>
+                    <option value="select">--Select--</option>
+                    <option value="india">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>                       
+                    <option value="germany">Germany</option>
+                    <option value="Japan">Japan</option>
+                </select></div>
+
+            <div class="div10"><label for="email"><span class="star">*</span>EMail-ID</label>
+            <input type="email"required></div>
+    
+            <div class="div11"><label for="contact"><span class="star">*</span>Mobile Number</label>
+            <input type="number" required></div>
+        
+            <h4 class="h4">Account Particulars</h4>
+            <div class="div12"><label for="account no"><span class="star">*</span>15 Digit Account No.</label>
+            <input type="text" min="0" max="15" required></div>
+
+            <div class="div13"><label for="nickname"><span class="star">*</span>Nick Name</span></label>
+                <input type="text" required></div>
+
+            <div class="div14"><label for="fundtransfer"><span class="star">*</span>Fund Transfer</label>
+            <select name="fundtransfer" id="fundtransfer">
+                <option value="select">--Select--</option>
+                <option value="5000">5000</option>
+                <option value="10000">10000</option>
+                <option value="25000">25000</option>
+                <option value="50000">50000</option>
+            </select></div>
+            
+            
+            
+            <h4 class="h4">DECLARATION</h4>
+                <p><input type="checkbox" required> I have read, understand and hereby agree to the terms and conditions in respect of all products and channels.</p>
+                <p>I understandand that any changes in the terms and conditions applicable to this relationship would be made avaliable to me on request at any IOB branches. I confirm that all accounts under this login name are operated singly and in case of joint account operated by either or survivor/anyone or survivor(s) under his/her joint name respectively. I do hereby declare that information furnished in this form is true to the best of my knowledge and belief.</p>
+
+            <button class="submit"> Submit </button>
+            <button class="reset"> Reset </button>
+                
+        </form>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form </title>
+    <style>
+        html
+        {
+            background-color: rgb(197, 231, 230);
+            text-align: center;
+        }
+        .register
+        {
+            background-color: rgb(66, 127, 207);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+        }
+    </style>
+</head>
+    <body>
+        <form>
+        <h1> Student Registration Form </h1><hr><br><br>
+
+        <label for="fname"> First Name :- </label>
+        <input type="text" placeholder="Surname" required><br><br>
+
+        <label for="mname"> Middel Name :- </label>
+        <input type="text" placeholder="Name" required><br><br>
+
+        <label for="lname"> Last Name :- </label>
+        <input type="text" placeholder="Father Name" required><br><br>
+
+        <label for="contact"> Mobile No. :-</label>
+        <input type="Number" placeholder="0123456789" required><br><br>
+
+        <label for="email"> Email :- </label>
+        <input type="email" placeholder="abc123@gmail.com" required><br><br>
+
+        <label for="DOB"> Date of Birth :- </label>
+        <input type="date" required><br><br>
+
+        <label for="gender"> Gender :- </label>
+        <input type="radio" id="gender" name="" value="male"> Male
+        <input type="radio" id="gender" name="" value="female"> Female <br><br>
+
+        <label for="address"> Address :- </label>
+        <textarea name="address" id="" placeholder="permenent address" cols="30" rows="2"></textarea><br><br>
+
+        <label for="course"> Select Course :- </label>
+        <select name="course" id="course">
+            <option value="select">--Select--</option>
+            <option value="frontend"> Front End Developer </option>
+            <option value="backend"> Back End Developer </option>
+            <option value="fullstack"> Full Stack </option>
+            <option value="android"> Android Developer </option>
+            <option value="ios"> IOS Developer </option></select><br><br>
+
+        <label for="branch"> Select Branch :- </label>
+        <select name="branch" id="branch">
+            <option value="select">--Select--</option>
+            <option value="ahmedabad"> Ahmedabad </option>
+            <option value="delhi"> Delhi </option>
+            <option value="mumbai"> Mumbai </option>
+            <option value="channai"> Channai </option>
+            <option value="kolkata"> kolkata </option></select><br><br>
+
+        <label for="accept"></label>
+        <input type="checkbox" required> I read all Terms & Conditions* <br><br>
+
+        <button class="register"> Register </button>
+    </form>            
+    </body>
+</html>

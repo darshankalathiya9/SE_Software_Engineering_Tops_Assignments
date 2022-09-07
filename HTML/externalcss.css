@@ -1,0 +1,44 @@
+html
+{
+    background-color: rgb(243, 216, 61);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+a
+{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+}
+
+.h1
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.pic
+{
+    margin-left: 550px;
+    border: 4px solid white;
+}
+
+.p1
+{
+    background-color: #2A9C9D;
+    color: black;
+}
+
+.p2
+{
+    background-color: #FFFDC4;
+    color: black;
+}
+
+.p3
+{
+    background-color: #F98441;
+    color: black;
+}

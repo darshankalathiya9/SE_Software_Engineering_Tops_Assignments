@@ -1,0 +1,244 @@
+html
+{
+    background-color:khaki;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.facebook-button
+{
+    background-color: rgb(43, 0, 199);
+    color: black;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+    /* display: inline-block;
+    text-decoration: none;
+    text-align: center; */
+}
+.facebook-button:hover
+{
+    background-color:black;
+    color:  rgb(55, 0, 255);
+    /* border: 1px solid  rgb(55, 0, 255); */
+}
+.facebook-button:active
+{
+    /* color: grey; */
+    transform:scale(0.95);
+}
+/* .facebook-button:visited
+{
+    color: pink;
+} */
+
+
+.twitter-button
+{
+    background-color: rgb(65, 193, 231);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+}
+.twitter-button:hover
+{
+    background-color: black;
+    color:  rgb(65, 193, 231);
+}
+.twitter-button:active
+{
+    transform: scale(0.95);
+}
+
+
+
+.google-button
+{
+    background-color: rgb(228, 37, 37);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+}
+.google-button:hover
+{
+    background-color: black;
+    color:  rgb(228, 37, 37);
+}
+.google-button:active
+{
+    transform: scale(0.95);
+}
+
+
+
+.linkedin-button
+{
+    background-color: rgb(60, 101, 236);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+}
+.linkedin-button:hover
+{
+    background-color: black;
+}
+.linkedin-button:active
+{
+    transform: scale(0.95);
+}
+
+
+
+.yahoo-button
+{
+    background-color: rgb(90, 16, 133);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+}
+.yahoo-button:hover
+{
+    background-color: black;
+}
+.yahoo-button:active
+{
+    transform: scale(0.95);
+}
+
+
+
+.instagram-button
+{
+    background-color: rgb(116, 114, 30);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+}
+.instagram-button:hover
+{
+    background-color: black;
+}
+.instagram-button:active
+{
+    transform: scale(0.95);
+}
+
+
+
+.pinterest-button
+{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+}
+.pinterest-button:hover
+{
+    background-color: black;
+}
+.pinterest-button:active
+{
+    transform: scale(0.95);
+}
+
+
+
+.amazon-button
+{
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+}
+.amazon-button:hover
+{
+    background-color: black;
+}
+.amazon-button:active
+{
+    transform: scale(0.95);
+}
+
+
+
+.tumblr-button
+{
+    background-color: rgb(4, 0, 255);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+}
+.tumblr-button:hover
+{
+    background-color: black;
+}
+.tumblr-button:active
+{
+    transform: scale(0.95);
+}
+
+
+
+.vkontake-button
+{
+    background-color: rgb(30, 67, 168);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+}
+.vkontake-button:hover
+{
+    background-color: black;
+}
+.vkontake-button:active
+{
+    transform: scale(0.95);
+}
