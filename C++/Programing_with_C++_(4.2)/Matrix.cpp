@@ -58,7 +58,7 @@ public:
         for (i = 0; i <= 2; i++)
         {
             c[i] = a[i] + b[i];
-            cout << "\n C [" << i + 1 << "] = " << c[i];
+            cout << "\n C [" << i << "] = " << c[i];
         }
     }
 };

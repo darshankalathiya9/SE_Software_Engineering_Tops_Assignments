@@ -13,26 +13,26 @@ public:
         cin >> b;
     }
 
-    void Cal(int a, int b)
+    void Cal(int d)
     {
         ans = a + b;
         cout << "\n Addition : " << ans;
     }
-    void Cal(double a, double b)
+    void Cal(double e)
     {
         ans = a - b;
         cout << "\n substraction : " << ans;
     }
 
-    void Cal(char a, char b)
+    void Cal(char f)
     {
         ans = a * b;
         cout << "\n Multiplication : " << ans;
     }
 
-    void Cal(int a, char b)
+    void Cal(int g, char h)
     {
-        ans = a / b;
+         ans = (double) a / (double) b;
         cout << "\n Division : " << ans;
     }
 };
@@ -42,7 +42,7 @@ main()
     Calculator obj;
 
     obj.input();
-    obj.Cal(9);
+    obj.Cal(8);
     obj.Cal(9.99);
     obj.Cal('d');
     obj.Cal(9, 'd');
