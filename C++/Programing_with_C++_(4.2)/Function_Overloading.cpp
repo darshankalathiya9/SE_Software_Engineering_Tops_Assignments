@@ -2,7 +2,8 @@
 using namespace std;
 class Calculator
 {
-    int a, b, ans = 0;
+    int a, b;
+    float ans;
 
 public:
     void input()
@@ -32,7 +33,7 @@ public:
 
     void Cal(int g, char h)
     {
-         ans = (double) a / (double) b;
+        ans = (float)a / (float)b;
         cout << "\n Division : " << ans;
     }
 };
